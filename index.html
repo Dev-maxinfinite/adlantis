@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondavus Trade Online | Global Trading Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .title-font {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .gradient-primary {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        }
+        .gradient-secondary {
+            background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
+        }
+        .gradient-accent {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+        }
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+        .fade-up.appear {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .stat-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glow-effect {
+            box-shadow: 0 0 20px rgba(30, 60, 114, 0.1);
+        }
+        .hover-lift {
+            transition: transform 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen">
+        <!-- Hero Section -->
+        <section class="gradient-primary text-white pt-16 pb-20 px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center fade-up">
+                    <div class="inline-block bg-white bg-opacity-10 rounded-full px-4 py-2 mb-6">
+                        <span class="text-sm font-medium">Global Trading Platform</span>
+                    </div>
+                    <h1 class="title-font text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Mondavus Trade Online</h1>
+                    <p class="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">Connecting global markets with innovative trading solutions and strategic partnerships.</p>
+                </div>
+                
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <div class="stat-card rounded-xl p-6 fade-up hover-lift">
+                        <div class="text-4xl font-bold mb-2">150+</div>
+                        <div class="text-lg opacity-90">Global Partners</div>
+                    </div>
+                    
+                    <div class="stat-card rounded-xl p-6 fade-up hover-lift" style="animation-delay: 0.1s">
+                        <div class="text-4xl font-bold mb-2">$2.5B+</div>
+                        <div class="text-lg opacity-90">Annual Trade Volume</div>
+                    </div>
+                    
+                    <div class="stat-card rounded-xl p-6 fade-up hover-lift" style="animation-delay: 0.2s">
+                        <div class="text-4xl font-bold mb-2">40+</div>
+                        <div class="text-lg opacity-90">Countries Served</div>
+                    </div>
+                    
+                    <div class="stat-card rounded-xl p-6 fade-up hover-lift" style="animation-delay: 0.3s">
+                        <div class="text-4xl font-bold mb-2">25+</div>
+                        <div class="text-lg opacity-90">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16 px-4 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="fade-up">
+                        <h2 class="title-font text-3xl md:text-4xl font-bold text-gray-800 mb-6">Global Trading Excellence</h2>
+                        <p class="text-gray-600 mb-6">Mondavus Trade Online is a premier global trading platform specializing in facilitating international trade, commodity exchange, and strategic market partnerships.</p>
+                        <p class="text-gray-600 mb-8">With decades of industry experience and a network spanning six continents, we provide comprehensive trading solutions that bridge markets and create sustainable value for our partners.</p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4">
+                                    <i class="fas fa-globe-americas"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Global Reach</h4>
+                                    <p class="text-gray-600">Access to markets across 40+ countries with local expertise.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-green-100 text-green-600 p-2 rounded-lg mr-4">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Market Intelligence</h4>
+                                    <p class="text-gray-600">Data-driven insights and analytics for informed trading decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="fade-up" style="animation-delay: 0.2s">
+                        <div class="bg-gradient-to-br from-blue-50 to-gray-100 rounded-xl p-8 glow-effect">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6">Our Trading Specializations</h3>
+                            
+                            <div class="space-y-6">
+                                <div>
+                                    <div class="flex justify-between mb-2">
+                                        <span class="font-medium text-gray-700">Commodities & Raw Materials</span>
+                                        <span class="font-bold text-blue-600">95%</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3">
+                                        <div class="gradient-primary h-3 rounded-full" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div class="flex justify-between mb-2">
+                                        <span class="font-medium text-gray-700">Industrial Goods</span>
+                                        <span class="font-bold text-orange-600">88%</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3">
+                                        <div class="gradient-secondary h-3 rounded-full" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div class="flex justify-between mb-2">
+                                        <span class="font-medium text-gray-700">Agricultural Products</span>
+                                        <span class="font-bold text-green-600">82%</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3">
+                                        <div class="gradient-accent h-3 rounded-full" style="width: 82%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div class="flex justify-between mb-2">
+                                        <span class="font-medium text-gray-700">Technology & Electronics</span>
+                                        <span class="font-bold text-purple-600">75%</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3">
+                                        <div class="bg-purple-600 h-3 rounded-full" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="py-16 px-4 bg-gray-50">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12 fade-up">
+                    <h2 class="title-font text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Trading Solutions</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto">Comprehensive services designed to optimize global trade operations and maximize market opportunities.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-xl p-8 shadow-sm glow-effect hover-lift fade-up">
+                        <div class="text-blue-600 text-4xl mb-6">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Trade Facilitation</h3>
+                        <p class="text-gray-600">End-to-end trade solutions including sourcing, negotiation, and contract management across global markets.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-8 shadow-sm glow-effect hover-lift fade-up" style="animation-delay: 0.1s">
+                        <div class="text-orange-600 text-4xl mb-6">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Logistics & Supply Chain</h3>
+                        <p class="text-gray-600">Optimized logistics planning, warehousing, and distribution networks for efficient global trade operations.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-8 shadow-sm glow-effect hover-lift fade-up" style="animation-delay: 0.2s">
+                        <div class="text-green-600 text-4xl mb-6">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Trade Compliance</h3>
+                        <p class="text-gray-600">Navigating international regulations, customs documentation, and trade compliance requirements.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-8 shadow-sm glow-effect hover-lift fade-up" style="animation-delay: 0.3s">
+                        <div class="text-purple-600 text-4xl mb-6">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Market Analysis</h3>
+                        <p class="text-gray-600">Comprehensive market research, trend analysis, and competitive intelligence for strategic trading decisions.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-8 shadow-sm glow-effect hover-lift fade-up" style="animation-delay: 0.4s">
+                        <div class="text-red-600 text-4xl mb-6">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Currency & Risk Management</h3>
+                        <p class="text-gray-600">Foreign exchange solutions and risk mitigation strategies for international trade transactions.</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-8 shadow-sm glow-effect hover-lift fade-up" style="animation-delay: 0.5s">
+                        <div class="text-teal-600 text-4xl mb-6">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Partner Network</h3>
+                        <p class="text-gray-600">Access to our global network of verified suppliers, distributors, and trade partners.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Global Presence -->
+        <section class="py-16 px-4 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12 fade-up">
+                    <h2 class="title-font text-3xl md:text-4xl font-bold text-gray-800 mb-4">Global Trade Presence</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto">With strategic hubs across key global markets, we facilitate trade operations worldwide.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center p-6 rounded-xl border border-gray-200 fade-up hover-lift">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-flag-usa"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">North America</h3>
+                        <p class="text-gray-600">New York, Chicago, Toronto</p>
+                    </div>
+                    
+                    <div class="text-center p-6 rounded-xl border border-gray-200 fade-up hover-lift" style="animation-delay: 0.1s">
+                        <div class="text-green-600 text-3xl mb-4">
+                            <i class="fas fa-globe-europe"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Europe</h3>
+                        <p class="text-gray-600">London, Frankfurt, Amsterdam</p>
+                    </div>
+                    
+                    <div class="text-center p-6 rounded-xl border border-gray-200 fade-up hover-lift" style="animation-delay: 0.2s">
+                        <div class="text-red-600 text-3xl mb-4">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Asia Pacific</h3>
+                        <p class="text-gray-600">Singapore, Hong Kong, Tokyo</p>
+                    </div>
+                    
+                    <div class="text-center p-6 rounded-xl border border-gray-200 fade-up hover-lift" style="animation-delay: 0.3s">
+                        <div class="text-orange-600 text-3xl mb-4">
+                            <i class="fas fa-globe-africa"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Middle East & Africa</h3>
+                        <p class="text-gray-600">Dubai, Johannesburg, Lagos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="gradient-primary text-white py-16 px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12 fade-up">
+                    <h2 class="title-font text-3xl md:text-4xl font-bold mb-4">Connect With Our Trade Team</h2>
+                    <p class="text-xl opacity-90 max-w-3xl mx-auto">For inquiries about our trading services and partnership opportunities.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center fade-up">
+                        <div class="bg-white bg-opacity-10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-map-marker-alt text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Global Headquarters</h3>
+                        <p class="opacity-90">International Trade Center</p>
+                        <p class="opacity-90">Dubai, UAE</p>
+                    </div>
+                    
+                    <div class="text-center fade-up" style="animation-delay: 0.2s">
+                        <div class="bg-white bg-opacity-10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-envelope text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Email Address</h3>
+                        <p class="opacity-90">trade@mondavus.online</p>
+                        <p class="opacity-90">operations@mondavus.online</p>
+                    </div>
+                    
+                    <div class="text-center fade-up" style="animation-delay: 0.4s">
+                        <div class="bg-white bg-opacity-10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-phone text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Contact Number</h3>
+                        <p class="opacity-90">+971 4 123 4567</p>
+                        <p class="opacity-90">+44 20 1234 5678</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Domain Footer -->
+        <div class="py-8 px-4 bg-gray-900 text-white text-center">
+            <p class="text-lg">Official Trading Platform: <span class="font-mono font-bold text-blue-300">mondavus.online</span></p>
+            <p class="mt-2 text-gray-400">© <span id="currentYear"></span> Mondavus Trade Online. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        // Set current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        
+        // Scroll animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-up');
+            
+            const appearOnScroll = function() {
+                fadeElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.classList.add('appear');
+                    }
+                });
+            };
+            
+            // Run on load
+            appearOnScroll();
+            
+            // Run on scroll
+            window.addEventListener('scroll', appearOnScroll);
+            
+            // Stagger animation delays
+            fadeElements.forEach((element, index) => {
+                element.style.animationDelay = `${index * 0.1}s`;
+            });
+        });
+    </script>
+</body>
+</html>
